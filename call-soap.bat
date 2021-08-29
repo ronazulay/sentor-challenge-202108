@@ -1,0 +1,1 @@
+curl.exe --request POST --user-agent "PHP-SOAP/7.4.24" --header "Content-Type: application/soap+xml; charset=utf-8; action=\"http://www.w3.org/2003/05/soap-envelope\"" --header "X-Forwarded-For: 127.0.0.1" --data @soap.xml http://sentorchallenge.se:31337/generator_soap_service.php -vv

